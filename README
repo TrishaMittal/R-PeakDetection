@@ -1,0 +1,22 @@
+*********************************************************************************************
+README
+*********************************************************************************************
+The following codes have been added.
+1. filter.c 
+This code deals with the processing of the raw_data to remove the baseline interference.
+
+2. RpeakDetect.c 
+This code is for the detection of all the locations of all the R-peaks.
+
+3. RpeakAlgo.m 
+Matlab code for both baseline removal and Rpeak detection.
+
+4. build.sh 
+Script to compile both the C codes. 
+To build the code type: ./build
+
+5. run.sh 
+Script to run the C codes.
+To build the code type: ./run 
+You will be prompted to enter the InputECGsignal file name and the Output file name.
+**********************************************************************************************
